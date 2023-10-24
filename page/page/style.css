@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, p {
+    text-align: center;
+}
+
+
+/* Centralizar uma imagem - horizontal */
+.img-1 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Centralizar uma imagem - vertical */
+.img-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Melhor forma pra centralizar uma DIV */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    height: 100vw;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(43, 235, 145);
+}
