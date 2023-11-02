@@ -177,7 +177,7 @@ body {
 
 }
 
-.stacks ul li div img:hover {
+.stacks:hover { /* Problemas com Hover */
     transition: scale(2.5);
     cursor: pointer;
 }
